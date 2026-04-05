@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="PresentA - Experience lightning-fast, highly secure biometric attendance management for schools and enterprises.">
+    <title>PresentA | Biometric Attendance</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-eye"></i>
+                </div>
+                PresentA
+            </a>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#dashboards">Dashboards</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+            </ul>
+            <a href="#get-started" class="btn-primary nav-btn">Get Started</a>
+
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobile-menu">
+        <div class="mobile-menu-content">
+            <button class="close-menu-btn" id="close-menu-btn">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <ul class="mobile-nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#dashboards">Dashboards</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#get-started" class="btn-primary">Get Started</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-bg-glow"></div>
+        <div class="hero-container">
+            <div class="hero-content fade-in-up">
+                <div class="badge">Version 1.0 is Here</div>
+                <h1>Attendance Verification,<br><span class="text-gradient">Reimagined.</span></h1>
+                <p>A simple, scalable, and secure biometric attendance system designed for modern institutions. Fast
+                    facial recognition, real-time analytics, and seamless cloud sync all in one powerful app.</p>
+                <div class="hero-cta">
+                    <a href="#get-started" class="btn-primary btn-large">Start Free Trial <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#features" class="btn-secondary btn-large">Learn More</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">98.9%</span>
+                        <span class="stat-label">Accuracy Rate</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">&lt;3s</span>
+                        <span class="stat-label">Scan Speed</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Mockup Animation -->
+            <div class="hero-visual fade-in-up delay-2">
+                <div class="mockup-frame">
+                    <img src="assets/face-scan.png" class="hero-screenshot" alt="Face Scan Application Screen">
+                    <div class="mockup-glow"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="section-container">
+            <div class="section-header text-center fade-in-up">
+                <h2 class="section-title">Built for <span class="text-gradient">Simplicity & Speed</span></h2>
+                <p class="section-subtitle">PresentA streamlines the everyday process of taking attendance through
+                    state-of-the-art AI technology.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card reveal">
+                    <div class="feature-icon"><i class="fa-solid fa-face-smile-beam"></i></div>
+                    <h3>Lightning Fast Facial Recognition</h3>
+                    <p>Position face in circle and get verified instantly in well-lit areas. Our custom models ensure
+                        rapid processing.</p>
+                </div>
+
+                <div class="feature-card reveal delay-1">
+                    <div class="feature-icon"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+                    <h3>Seamless Cloud Sync</h3>
+                    <p>Daily attendance data is securely uploaded to the cloud ensuring you never lose your records, and
+                        managers get real-time info.</p>
+                </div>
+
+                <div class="feature-card reveal delay-2">
+                    <div class="feature-icon"><i class="fa-solid fa-chart-column"></i></div>
+                    <h3>Insights & Analytics</h3>
+                    <p>Detailed reports and visual dashboards showing total attendees, absentees and monthly trends at a
+                        single glance.</p>
+                </div>
+
+                <div class="feature-card reveal">
+                    <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3>Bank-level Security</h3>
+                    <p>Biometric data is heavily encrypted for deep data privacy. Includes biometric sign-in using your
+                        device's fingerprint or FaceID.</p>
+                </div>
+
+                <div class="feature-card reveal delay-1">
+                    <div class="feature-icon"><i class="fa-solid fa-users-gear"></i></div>
+                    <h3>Comprehensive Roles</h3>
+                    <p>Fully tailored experiences designed carefully for Administrators, Teachers, and Students/Staff
+                        members.</p>
+                </div>
+
+                <div class="feature-card reveal delay-2">
+                    <div class="feature-icon"><i class="fa-solid fa-moon"></i></div>
+                    <h3>Beautiful Dark Mode</h3>
+                    <p>Premium user interface with highly polished glassmorphism effects, gorgeous gradients, and
+                        night-friendly contrast.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboards Section -->
+    <section class="dashboards" id="dashboards">
+        <div class="section-container">
+            <div class="dashboard-row reveal">
+                <div class="dashboard-content">
+                    <div class="badge badge-teal">Admin Control</div>
+                    <h2>Command Center for <span class="text-gradient">Administrators</span></h2>
+                    <p>Get a bird's-eye view of your entire organization. Our Admin Dashboard provides everything you
+                        need to manage people efficiently.</p>
+                    <ul class="feature-list">
+                        <li><i class="fa-solid fa-check text-primary"></i> Live attendance counters (Present vs Absent)
+                        </li>
+                        <li><i class="fa-solid fa-check text-primary"></i> Unified quick actions for rapid management
+                        </li>
+                        <li><i class="fa-solid fa-check text-primary"></i> Class assignments & advanced analytical
+                            reports</li>
+                        <li><i class="fa-solid fa-check text-primary"></i> Easy new staff/student registration suite
+                        </li>
+                    </ul>
+                </div>
+                <div class="dashboard-visual">
+                    <div class="mockup-frame-small admin-mockup">
+                        <img src="assets/admin-dashboard.png" class="screenshot-img" alt="Administrator Dashboard view">
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-row reverse reveal">
+                <div class="dashboard-content">
+                    <div class="badge badge-teal">Scalable Access</div>
+                    <h2>Portals for <span class="text-gradient">Recent Activity log, Realtime Analytics, Easy
+                            Registration, Reports Generation, Assign classes, Teachers and Students Dashboard. </span>
+                    </h2>
+                    <p>Individualized portals securely gated with unified biometric login, assuring no user sees
+                        information they shouldn't.</p>
+                    <ul class="feature-list">
+                        <li><i class="fa-solid fa-check text-primary"></i> Track personal activity logs & attendance
+                            history</li>
+                        <li><i class="fa-solid fa-check text-primary"></i> Custom Reports Generation </li>
+                        <li><i class="fa-solid fa-check text-primary"></i> Effortless Registration Process
+                        </li>
+                        <li><i class="fa-solid fa-check text-primary"></i> Realtime Analytics for Administrator
+                        </li>
+                        <li><i class="fa-solid fa-check text-primary"></i> Assign classes for Teachers
+                        </li>
+                        <li><i class="fa-solid fa-check text-primary"></i> Teachers and Students Dashboard
+                        </li>
+                        <li><i class="fa-solid fa-check text-primary"></i> Dual Tone Theme Support
+                        <li><i class="fa-solid fa-check text-primary"></i> Offline Support for Marking Attendance
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+                <div class="dashboard-visual">
+                    <div class="mockup-grid-3x3">
+                        <div class="mockup-frame-small interactive-mockup" data-tilt>
+                            <img src="assets/login.png" class="screenshot-img" alt="Admin Dashboard">
+                        </div>
+                        <div class="mockup-frame-small interactive-mockup" data-tilt>
+                            <img src="assets/settings.png" class="screenshot-img" alt="Face Scan">
+                        </div>
+                        <div class="mockup-frame-small interactive-mockup" data-tilt>
+                            <img src="assets/Activity_log.png" class="screenshot-img" alt="Login Screen">
+                        </div>
+                        <div class="mockup-frame-small interactive-mockup" data-tilt>
+                            <img src="assets/Analytics.png" class="screenshot-img" alt="Settings Screen">
+                        </div>
+                        <div class="mockup-frame-small interactive-mockup" data-tilt>
+                            <img src="assets/registration.png" class="screenshot-img" alt="Admin Dashboard">
+                        </div>
+                        <div class="mockup-frame-small interactive-mockup" data-tilt>
+                            <img src="assets/Class_assign.png" class="screenshot-img" alt="Face Scan">
+                        </div>
+                        <div class="mockup-frame-small interactive-mockup" data-tilt>
+                            <img src="assets/Reports.png" class="screenshot-img" alt="Login Screen">
+                        </div>
+                        <div class="mockup-frame-small interactive-mockup" data-tilt>
+                            <img src="assets/Teacher.png" class="screenshot-img" alt="Settings Screen">
+                        </div>
+                        <div class="mockup-frame-small interactive-mockup" data-tilt>
+                            <img src="assets/list.png" class="screenshot-img" alt="Admin Dashboard">
+                        </div>
+                        <div class="mockup-frame-small interactive-mockup" data-tilt>
+                            <img src="assets/Analytics.png" class="screenshot-img" alt="Admin Dashboard">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Carousel Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="section-container">
+            <div class="section-header text-center reveal">
+                <h2 class="section-title">Loved by <span class="text-gradient">Organizations</span></h2>
+                <p class="section-subtitle">See why schools, universities, and businesses are switching to PresentA.</p>
+            </div>
+
+            <div class="carousel-container reveal delay-1">
+                <div class="carousel-track" id="testimonial-track">
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="quote">"PresentA has entirely transformed how we handle morning assemblies. What used
+                            to take 20 minutes now takes seconds with facial scanning."</p>
+                        <div class="author">
+                            <div class="author-avatar"
+                                style="background-image: url('https://randomuser.me/api/portraits/women/44.jpg')"></div>
+                            <div class="author-info">
+                                <h4>Sarah Jenkins</h4>
+                                <span>Principal, Westside High</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="quote">"The admin dashboard is an absolute joy to use. The dark mode is easy on the
+                            eyes, and tracing absent students happens with practically one tap."</p>
+                        <div class="author">
+                            <div class="author-avatar"
+                                style="background-image: url('https://randomuser.me/api/portraits/men/32.jpg')"></div>
+                            <div class="author-info">
+                                <h4>Marcus Reed</h4>
+                                <span>HR Director, TechCorp</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="quote">"Deployment was seamless. The teachers learned the UI instantly because
+                            everything is just so elegantly laid out. Highly scaleable."</p>
+                        <div class="author">
+                            <div class="author-avatar"
+                                style="background-image: url('https://randomuser.me/api/portraits/women/68.jpg')"></div>
+                            <div class="author-info">
+                                <h4>Elena Rostova</h4>
+                                <span>IT Coordinator, State Univ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-controls">
+                    <button class="carousel-btn" id="prev-btn"><i class="fa-solid fa-chevron-left"></i></button>
+                    <div class="carousel-dots" id="carousel-dots">
+                        <!-- Dots populated by JS -->
+                    </div>
+                    <button class="carousel-btn" id="next-btn"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="section-container">
+            <div class="section-header text-center reveal">
+                <h2 class="section-title">Transparent <span class="text-gradient">Pricing</span></h2>
+                <p class="section-subtitle">Flexible plans to scale alongside your organization.</p>
+            </div>
+
+            <div class="pricing-table">
+                <!-- Basic Plan -->
+                <div class="price-card reveal">
+                    <h3>Starter</h3>
+                    <p class="desc">For small schools & teams.</p>
+                    <div class="price">
+                        <span class="currency">Rs.</span><span class="amount">4,999</span><span
+                            class="period">/monthly</span>
+                    </div>
+                    <ul class="feature-list benefits">
+                        <li><i class="fa-solid fa-check text-primary"></i> Up to 200 Users</li>
+                        <li><i class="fa-solid fa-check text-primary"></i> Basic Attendance Logging</li>
+                        <li><i class="fa-solid fa-check text-primary"></i> Cloud Sync Data</li>
+                        <li><i class="fa-solid fa-xmark text-muted"></i> Analytics & Reports Generation</li>
+                        <li><i class="fa-solid fa-xmark text-muted"></i> Assign Classes to Teachers</li>
+                    </ul>
+                    <a href="#" class="btn-secondary w-100">Get Started</a>
+                </div>
+
+                <!-- Pro Plan -->
+                <div class="price-card popular reveal delay-1">
+                    <div class="popular-badge">Most Popular</div>
+                    <h3>Professional</h3>
+                    <p class="desc">For mid-sized institutions.</p>
+                    <div class="price">
+                        <span class="currency">Rs.</span><span class="amount">9,999</span><span
+                            class="period">/monthly</span>
+                    </div>
+                    <ul class="feature-list benefits">
+                        <li><i class="fa-solid fa-check text-primary"></i> Up to 1,000 Users</li>
+                        <li><i class="fa-solid fa-check text-primary"></i> <strong>Biometric Facial Scanning</strong>
+                        </li>
+                        <li><i class="fa-solid fa-check text-primary"></i> Detailed Analytics & Reports Generation</li>
+                        <li><i class="fa-solid fa-check text-primary"></i> Admin, Students & Teacher Dashboards</li>
+                        <li><i class="fa-solid fa-check text-primary"></i> Cloud Sync Data</li>
+                        <li><i class="fa-solid fa-check text-primary"></i> Assign Classes to Teachers</li>
+                    </ul>
+                    <a href="#" class="btn-primary w-100">Start Free Trial</a>
+                </div>
+
+                <!-- Enterprise Plan -->
+                <div class="price-card reveal delay-2">
+                    <h3>Enterprise</h3>
+                    <p class="desc">For massive deployments.</p>
+                    <div class="price">
+                        <span class="currency">Let's Talk</span>
+                    </div>
+                    <ul class="feature-list benefits">
+                        <li><i class="fa-solid fa-check text-primary"></i> Unlimited Users</li>
+                        <li><i class="fa-solid fa-check text-primary"></i> Advanced Data Access</li>
+                        <li><i class="fa-solid fa-check text-primary"></i> Custom Integrations</li>
+                        <li><i class="fa-solid fa-check text-primary"></i> 24/7 Priority Support</li>
+                    </ul>
+                    <a href="#" class="btn-secondary w-100">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="section-container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <div class="logo-icon">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                        PresentA
+                    </a>
+                    <p class="footer-desc">The next generation of biometric attendance tracking.<br>Fast. Secure.
+                        Simple.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#dashboards">Dashboards</a></li>
+                        <li><a href="#">Release Notes</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 PresentA Systems Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
